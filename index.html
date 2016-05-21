@@ -74,7 +74,7 @@ footer span { float: right; font-style: italic; }
     <script async src="http://www.google-analytics.com/analytics.js"></script>
     
     <!--<script src="js/perfmatters.js"></script>-->
-    
+    <script>
     function logCRP() {
     var t = window.performance.timing,
     dcl = t.domContentLoadedEventStart - t.domLoading,
@@ -86,7 +86,8 @@ footer span { float: right; font-style: italic; }
     window.addEventListener("load", function(event) {
     logCRP();
     });
-    
+   </script>
+
   </head>
 
   <body>
